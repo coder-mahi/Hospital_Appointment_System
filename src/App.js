@@ -1,22 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import AddDoctor from './components/AddDoctor';
+import DoctorList from './components/DoctorList';
+import AddPatient from './components/AddPatient';
+import PatientList from './components/PatientList';
+import AppointmentList from './components/AppointmentList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Hospital Management System</h1>
+        <AddDoctor />
+        <DoctorList />
+        <AddPatient />
+        <PatientList />
+        <AppointmentList />
       </header>
     </div>
   );

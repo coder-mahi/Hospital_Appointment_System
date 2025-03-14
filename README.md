@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+📂 Folder Structure
+Hospital-React/
+│── src/components/
+│   ├── DoctorList.js
+│   ├── AddDoctor.js
+│   ├── PatientList.js
+│   ├── AddPatient.js
+│   ├── AppointmentList.js
+│── src/api/
+│   ├── api.js
+│── src/App.js
+│── package.json
